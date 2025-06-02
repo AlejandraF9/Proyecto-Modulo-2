@@ -1,0 +1,78 @@
+
+/* ANIDAR!!! */
+
+/* Medidas en rem y em */
+
+/* Preguntar que si englobo todo en #main, no carga nada de CSS en la página */
+
+#main {
+    .decoration-container {
+        background-color: var(--decoration-background);
+        padding: 0 1.5rem 1rem 1.5rem;
+    }
+        .decoration {
+            background-color: var(--main-background);
+            color: var(--first-text);
+            border-top: 6px solid #374351;
+        }
+            .text-container {
+                display: flex;
+                flex-direction: column;
+                gap: var(--main-rem);
+                padding: 2.5rem 0.8rem;
+
+                h1 {
+                    font-family: "PlayfairDisplay-med";
+                    font-size: var(--primary-font);
+                    text-align: center;
+                    margin-bottom: var(--main-rem);
+                }
+                .info {
+                    font-size: var(--secondary-font);
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin-bottom: var(--main-rem);
+                }
+                .description {
+                    font-size: var(--secondary-font);
+                    text-align: center;
+                }
+
+                .info, .description {
+                    font-family: var(--regular-text);
+                }
+            }
+
+            .img-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: auto auto;
+                gap: 1rem;
+
+                img {
+                    display: block;
+                    object-fit: cover;
+                }
+
+                .decoration1 {
+                    grid-column: 1 / 3;
+                    grid-row: 1 / 2;
+                }
+                .decoration2 {
+                    grid-column: 1 / 2;
+                    grid-row: 2 / 3;
+                }    
+                .decoration3 {
+                    grid-column: 2 / 3;
+                    grid-row: 2 / 3;
+                }
+            }
+}
+
+
+
+/* 
+@media (min-width: 1024px) {
+
+
+} */
