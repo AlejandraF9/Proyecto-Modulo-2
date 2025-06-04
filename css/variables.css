@@ -1,12 +1,13 @@
 :root {
   --regular-text: "PlayfairDisplay";
-  --bold-text: "PlayfairDisplay-bold";
+  --med-text: "PlayfairDisplay-med";
+  --thin-text: "Montserrat";
   --primary-font: 2rem;
   --secondary-font: 0.8rem;
   --first-text: #000;
   --second-text: #fff;
-  --main-background: #fff;
-  --decoration-background: #bfbfbf;
+  --main-background: #bfbfbf;
+  --decoration-background: #fff;
   --products-background: #384454;
   --main-rem: 1rem;
 }
