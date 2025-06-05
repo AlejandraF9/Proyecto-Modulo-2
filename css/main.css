@@ -1,8 +1,4 @@
 
-/* ANIDAR!!! */
-
-/* Medidas en rem y em */
-
 #main {
     .decoration-section {
         background-color: var(--main-background);
@@ -137,13 +133,18 @@
                     .products-text {
                         display: flex;
                         flex-direction: column;
-                        gap: 1rem;
+                        gap: var(--main-rem)
                     }
 
                     .products-name {
                         font-weight: bold;
                         text-transform: uppercase;
                         margin: 0.2rem 0;
+                        cursor: pointer;
+                    }
+
+                    .products-name:hover {
+                        text-decoration: underline;
                     }
 
                     .products-price {
@@ -187,6 +188,8 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
         }
             .text-container {
                 width: 55%;
@@ -206,6 +209,7 @@
                     .description {
                         font-size: 0.5rem;
                         max-width: 400px;
+                        margin-bottom: var(--main-rem);
                     }
             }
 
@@ -242,5 +246,63 @@
                     transition: border 0.2s ease;
                     }
                 }
+        
+        h2 {
+            display: none;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            .products-info {
+                width: 23%;
+                border: none;
+                    
+                img {
+                    height: 220px;
+                    object-fit: cover;
+                }
+                
+                .products-text {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: baseline;
+                    gap: 6.5rem;
+                }
+
+                .products-name {
+                    font-size: 0.55rem;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                }
+
+                .products-name:hover {
+                    text-decoration: underline;
+                }
+
+                .products-price {
+                    font-size: 0.55rem;
+                }
+            }
+
+        }
+
+        .shop-all {
+            border-top: 1px solid #afb7c2;
+            margin-top: var(--main-rem);
+        }
+            .shop-all a {
+                font-size: 0.6rem;
+            }
+
+            .shop-border {
+                width: 100%;
+                border-bottom: 1px solid #afb7c2;
+                margin-bottom:var(--primary-font);
+            }
     }
+
+  
 }
