@@ -2,12 +2,12 @@
   --regular-text: "PlayfairDisplay";
   --med-text: "PlayfairDisplay-med";
   --thin-text: "Montserrat";
+  --details-text: "LibreBaskerville";
   --primary-font: 2rem;
   --secondary-font: 0.8rem;
   --first-text: #000;
-  --second-text: #fff;
+  --main-white: #fff;
   --main-background: #bfbfbf;
-  --decoration-background: #fff;
   --products-background: #384454;
   --main-rem: 1rem;
 }
