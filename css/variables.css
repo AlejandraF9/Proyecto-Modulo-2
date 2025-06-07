@@ -4,10 +4,11 @@
   --thin-text: "Montserrat";
   --details-text: "LibreBaskerville";
   --primary-font: 2rem;
-  --secondary-font: 0.8rem;
   --first-text: #000;
   --main-white: #fff;
   --main-background: #bfbfbf;
   --products-background: #384454;
+  --decoration-border: #f7f7f7;
   --main-rem: 1rem;
+  --secondary-rem: 0.5rem;
 }
